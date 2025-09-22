@@ -181,12 +181,12 @@
             <div class="container" align="center">
                 <h2>Contáctanos</h2>
                 <p>¿Tienes preguntas o sugerencias? Nos encantaría escucharte.</p>
-                <form class="contact-form">
-                    <input type="text" placeholder="Tu Nombre" required>
-                    <input type="email" placeholder="Tu Email" required>
-                    <textarea placeholder="Tu Mensaje" rows="5" required></textarea>
-                    <button type="submit" class="btn btn-primary">Enviar Mensaje</button>
-                </form>
+             <form class="contact-form" action="https://formspree.io/f/mzzjpjrv" method="POST">
+				<input type="text" name="nombre" placeholder="Tu Nombre" required>
+				<input type="email" name="email" placeholder="Tu Email" required>
+				<textarea name="mensaje" placeholder="Tu Mensaje" rows="5" required></textarea>
+				<button type="submit" class="btn btn-primary">Enviar Mensaje</button>
+			</form>
             </div>
         </section>
     </main>
@@ -204,4 +204,5 @@
 
     <script src="script.js"></script>
 </body>
+
 </html>
